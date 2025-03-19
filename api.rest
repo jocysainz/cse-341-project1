@@ -1,0 +1,9 @@
+# Test GET all users from the deployed API
+GET https://cse-341-project1-a1yu.onrender.com/users
+Content-Type: application/json
+
+---
+
+# Test GET a single user by ID from the deployed API 
+GET https://cse-341-project1-a1yu.onrender.com/users/662c7874b12e53c5c908f3a5
+Content-Type: application/json
